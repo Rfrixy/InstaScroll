@@ -1,17 +1,16 @@
 import React from 'react'
-import Footer from './Footer'
-import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
 import LoadButton from '../containers/LoadButton'
 import CardContainer from '../containers/CardContainer'
+import HeaderContainer from '../containers/HeaderContainer'
+
+
+
 
 const App = () => (
   <div>
+    <HeaderContainer />
     <CardContainer />
     <LoadButton />
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
   </div>
 )
 

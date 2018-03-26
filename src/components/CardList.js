@@ -60,7 +60,6 @@ export default class CardList extends Component {
   }
 
   render() {
-    // const {src, name} = this.props;
       return (
         <Wrapper>
           <div className="instaList">
